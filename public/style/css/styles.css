@@ -1,0 +1,144 @@
+body
+{
+    /* background-color:#222;
+    color:#fff;
+    */
+    font-weight: bold;
+    max-width: 100%;
+    overflow-x: auto;
+}
+.footer
+{
+    margin-bottom: 0px;
+}
+.flag
+{
+    border-radius: 50%;
+    width: 60px;
+    /* float: left; */
+}
+.Constructionpic
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
+}
+#gameweek
+{
+    padding: 10px 60px;
+    font-size: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #5cb85c;
+    border-radius: 25px;
+}
+#B{display:none;}
+#C{display:none;}
+
+/*-------------------------------------------------------------*/
+/*Side Menu*/
+.nav-pills>li.active>a
+{
+    background-color: #5cb85c;
+}
+a 
+{
+    color: #449d44;
+    font-weight: bold;
+}
+.nav-pills>li.active>a:hover
+{
+    background-color: #449d44;
+}
+a:hover 
+{
+    color: #449d44;
+}
+.dropdown-btn 
+{
+    display: block;
+}
+.dropdown-container
+{
+    display: none;
+}
+.MenueButton
+{
+    border-radius: 25px;
+    background-color: #5cb85c;
+    border-color: black;
+    width: 170px;
+    height: 50px;
+    margin: 10px;
+}
+.dropdown-btn 
+{
+    display: block;
+    border-radius: 25px;
+    background-color: #5cb85c;
+    border-color: black;
+    width: 160px;
+    height: 50px;
+    margin: 50px;
+    margin-left: -12px;
+}
+.EditDeleteButton
+{
+    font-weight: bold;
+    border-radius: 30px;
+}
+.btn
+{
+    font-weight: bold;
+}
+.ChampionsLeague
+{
+    background-color:#5cb85c;
+    padding: 4px;
+}
+.EuropaLeague
+{
+    background-color:#4479ca;
+    padding: 4px; 
+}
+.KnockOut
+{
+    background-color:#ca4444;
+    padding: 4px;
+}
+/*-------------------------------------------------------------*/
+
+
+.sidenav 
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a 
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 36px;
+}
