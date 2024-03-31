@@ -1,4 +1,4 @@
-## Football News
+## Football Blog
 
 It's my first Laravel project ever after the Laravel course.
 it was like a final project of the course.
